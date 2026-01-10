@@ -98,5 +98,20 @@ nav ul li button{
 }
 #banner .banner-image img{
     max-width: 585px;
-    vertical-align: middle;
+    vertical-align:middle;
+}
+#banner .banner-button button{
+    font-size: 20px;
+    font-weight:bold;
+}
+#banner .banner-button{
+    display: flex;
+    gap: 30px;
+}
+#banner .banner-button .btn1{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
 }
